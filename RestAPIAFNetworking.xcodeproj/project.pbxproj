@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689AC2941FAC2F620085869F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2931FAC2F620085869F /* AppDelegate.m */; };
+		689AC2971FAC2F620085869F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2961FAC2F620085869F /* ViewController.m */; };
+		689AC29A1FAC2F620085869F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689AC2981FAC2F620085869F /* Main.storyboard */; };
+		689AC29D1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 689AC29B1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodeld */; };
+		689AC29F1FAC2F620085869F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689AC29E1FAC2F620085869F /* Assets.xcassets */; };
+		689AC2A21FAC2F620085869F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689AC2A01FAC2F620085869F /* LaunchScreen.storyboard */; };
+		689AC2A51FAC2F620085869F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2A41FAC2F620085869F /* main.m */; };
+		689AC2AF1FAC2F620085869F /* RestAPIAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2AE1FAC2F620085869F /* RestAPIAFNetworkingTests.m */; };
+		689AC2BA1FAC2F620085869F /* RestAPIAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2B91FAC2F620085869F /* RestAPIAFNetworkingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689AC2AB1FAC2F620085869F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689AC2871FAC2F620085869F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689AC28E1FAC2F620085869F;
+			remoteInfo = RestAPIAFNetworking;
+		};
+		689AC2B61FAC2F620085869F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689AC2871FAC2F620085869F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689AC28E1FAC2F620085869F;
+			remoteInfo = RestAPIAFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		689AC28F1FAC2F620085869F /* RestAPIAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AC2921FAC2F620085869F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689AC2931FAC2F620085869F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689AC2951FAC2F620085869F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689AC2961FAC2F620085869F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		689AC2991FAC2F620085869F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689AC29C1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestAPIAFNetworking.xcdatamodel; sourceTree = "<group>"; };
+		689AC29E1FAC2F620085869F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689AC2A11FAC2F620085869F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689AC2A31FAC2F620085869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689AC2A41FAC2F620085869F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689AC2AA1FAC2F620085869F /* RestAPIAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AC2AE1FAC2F620085869F /* RestAPIAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestAPIAFNetworkingTests.m; sourceTree = "<group>"; };
+		689AC2B01FAC2F620085869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689AC2B51FAC2F620085869F /* RestAPIAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689AC2B91FAC2F620085869F /* RestAPIAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestAPIAFNetworkingUITests.m; sourceTree = "<group>"; };
+		689AC2BB1FAC2F620085869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689AC28C1FAC2F620085869F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2A71FAC2F620085869F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2B21FAC2F620085869F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689AC2861FAC2F620085869F = {
+			isa = PBXGroup;
+			children = (
+				689AC2911FAC2F620085869F /* RestAPIAFNetworking */,
+				689AC2AD1FAC2F620085869F /* RestAPIAFNetworkingTests */,
+				689AC2B81FAC2F620085869F /* RestAPIAFNetworkingUITests */,
+				689AC2901FAC2F620085869F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689AC2901FAC2F620085869F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689AC28F1FAC2F620085869F /* RestAPIAFNetworking.app */,
+				689AC2AA1FAC2F620085869F /* RestAPIAFNetworkingTests.xctest */,
+				689AC2B51FAC2F620085869F /* RestAPIAFNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689AC2911FAC2F620085869F /* RestAPIAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				689AC2921FAC2F620085869F /* AppDelegate.h */,
+				689AC2931FAC2F620085869F /* AppDelegate.m */,
+				689AC2951FAC2F620085869F /* ViewController.h */,
+				689AC2961FAC2F620085869F /* ViewController.m */,
+				689AC2981FAC2F620085869F /* Main.storyboard */,
+				689AC29E1FAC2F620085869F /* Assets.xcassets */,
+				689AC2A01FAC2F620085869F /* LaunchScreen.storyboard */,
+				689AC2A31FAC2F620085869F /* Info.plist */,
+				689AC2A41FAC2F620085869F /* main.m */,
+				689AC29B1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodeld */,
+			);
+			path = RestAPIAFNetworking;
+			sourceTree = "<group>";
+		};
+		689AC2AD1FAC2F620085869F /* RestAPIAFNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				689AC2AE1FAC2F620085869F /* RestAPIAFNetworkingTests.m */,
+				689AC2B01FAC2F620085869F /* Info.plist */,
+			);
+			path = RestAPIAFNetworkingTests;
+			sourceTree = "<group>";
+		};
+		689AC2B81FAC2F620085869F /* RestAPIAFNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				689AC2B91FAC2F620085869F /* RestAPIAFNetworkingUITests.m */,
+				689AC2BB1FAC2F620085869F /* Info.plist */,
+			);
+			path = RestAPIAFNetworkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689AC28E1FAC2F620085869F /* RestAPIAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AC2BE1FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworking" */;
+			buildPhases = (
+				689AC28B1FAC2F620085869F /* Sources */,
+				689AC28C1FAC2F620085869F /* Frameworks */,
+				689AC28D1FAC2F620085869F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestAPIAFNetworking;
+			productName = RestAPIAFNetworking;
+			productReference = 689AC28F1FAC2F620085869F /* RestAPIAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689AC2A91FAC2F620085869F /* RestAPIAFNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AC2C11FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworkingTests" */;
+			buildPhases = (
+				689AC2A61FAC2F620085869F /* Sources */,
+				689AC2A71FAC2F620085869F /* Frameworks */,
+				689AC2A81FAC2F620085869F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689AC2AC1FAC2F620085869F /* PBXTargetDependency */,
+			);
+			name = RestAPIAFNetworkingTests;
+			productName = RestAPIAFNetworkingTests;
+			productReference = 689AC2AA1FAC2F620085869F /* RestAPIAFNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689AC2B41FAC2F620085869F /* RestAPIAFNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689AC2C41FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworkingUITests" */;
+			buildPhases = (
+				689AC2B11FAC2F620085869F /* Sources */,
+				689AC2B21FAC2F620085869F /* Frameworks */,
+				689AC2B31FAC2F620085869F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689AC2B71FAC2F620085869F /* PBXTargetDependency */,
+			);
+			name = RestAPIAFNetworkingUITests;
+			productName = RestAPIAFNetworkingUITests;
+			productReference = 689AC2B51FAC2F620085869F /* RestAPIAFNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689AC2871FAC2F620085869F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SpaceBasic;
+				TargetAttributes = {
+					689AC28E1FAC2F620085869F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					689AC2A91FAC2F620085869F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 689AC28E1FAC2F620085869F;
+					};
+					689AC2B41FAC2F620085869F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 689AC28E1FAC2F620085869F;
+					};
+				};
+			};
+			buildConfigurationList = 689AC28A1FAC2F620085869F /* Build configuration list for PBXProject "RestAPIAFNetworking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689AC2861FAC2F620085869F;
+			productRefGroup = 689AC2901FAC2F620085869F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689AC28E1FAC2F620085869F /* RestAPIAFNetworking */,
+				689AC2A91FAC2F620085869F /* RestAPIAFNetworkingTests */,
+				689AC2B41FAC2F620085869F /* RestAPIAFNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689AC28D1FAC2F620085869F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AC2A21FAC2F620085869F /* LaunchScreen.storyboard in Resources */,
+				689AC29F1FAC2F620085869F /* Assets.xcassets in Resources */,
+				689AC29A1FAC2F620085869F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2A81FAC2F620085869F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2B31FAC2F620085869F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689AC28B1FAC2F620085869F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AC2971FAC2F620085869F /* ViewController.m in Sources */,
+				689AC2941FAC2F620085869F /* AppDelegate.m in Sources */,
+				689AC2A51FAC2F620085869F /* main.m in Sources */,
+				689AC29D1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2A61FAC2F620085869F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AC2AF1FAC2F620085869F /* RestAPIAFNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689AC2B11FAC2F620085869F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689AC2BA1FAC2F620085869F /* RestAPIAFNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689AC2AC1FAC2F620085869F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689AC28E1FAC2F620085869F /* RestAPIAFNetworking */;
+			targetProxy = 689AC2AB1FAC2F620085869F /* PBXContainerItemProxy */;
+		};
+		689AC2B71FAC2F620085869F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689AC28E1FAC2F620085869F /* RestAPIAFNetworking */;
+			targetProxy = 689AC2B61FAC2F620085869F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689AC2981FAC2F620085869F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689AC2991FAC2F620085869F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689AC2A01FAC2F620085869F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689AC2A11FAC2F620085869F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689AC2BC1FAC2F620085869F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689AC2BD1FAC2F620085869F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689AC2BF1FAC2F620085869F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689AC2C01FAC2F620085869F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689AC2C21FAC2F620085869F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestAPIAFNetworking.app/RestAPIAFNetworking";
+			};
+			name = Debug;
+		};
+		689AC2C31FAC2F620085869F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestAPIAFNetworking.app/RestAPIAFNetworking";
+			};
+			name = Release;
+		};
+		689AC2C51FAC2F620085869F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestAPIAFNetworking;
+			};
+			name = Debug;
+		};
+		689AC2C61FAC2F620085869F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestAPIAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spacebasic.com.RestAPIAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestAPIAFNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689AC28A1FAC2F620085869F /* Build configuration list for PBXProject "RestAPIAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AC2BC1FAC2F620085869F /* Debug */,
+				689AC2BD1FAC2F620085869F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AC2BE1FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AC2BF1FAC2F620085869F /* Debug */,
+				689AC2C01FAC2F620085869F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AC2C11FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AC2C21FAC2F620085869F /* Debug */,
+				689AC2C31FAC2F620085869F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689AC2C41FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689AC2C51FAC2F620085869F /* Debug */,
+				689AC2C61FAC2F620085869F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		689AC29B1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				689AC29C1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodel */,
+			);
+			currentVersion = 689AC29C1FAC2F620085869F /* RestAPIAFNetworking.xcdatamodel */;
+			path = RestAPIAFNetworking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 689AC2871FAC2F620085869F /* Project object */;
+}
