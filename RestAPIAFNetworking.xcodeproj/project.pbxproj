@@ -16,6 +16,7 @@
 		689AC2A51FAC2F620085869F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2A41FAC2F620085869F /* main.m */; };
 		689AC2AF1FAC2F620085869F /* RestAPIAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2AE1FAC2F620085869F /* RestAPIAFNetworkingTests.m */; };
 		689AC2BA1FAC2F620085869F /* RestAPIAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AC2B91FAC2F620085869F /* RestAPIAFNetworkingUITests.m */; };
+		CB35CA1AE3004EDA2F416CAC /* libPods-RestAPIAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A918FA67697CCEBD6521C3C8 /* libPods-RestAPIAFNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1225878A098E0903890A1A8E /* Pods-RestAPIAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIAFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIAFNetworking/Pods-RestAPIAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		689AC28F1FAC2F620085869F /* RestAPIAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689AC2921FAC2F620085869F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		689AC2931FAC2F620085869F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		689AC2B51FAC2F620085869F /* RestAPIAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		689AC2B91FAC2F620085869F /* RestAPIAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestAPIAFNetworkingUITests.m; sourceTree = "<group>"; };
 		689AC2BB1FAC2F620085869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A918FA67697CCEBD6521C3C8 /* libPods-RestAPIAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RestAPIAFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38C7728340E0887705AF950 /* Pods-RestAPIAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIAFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIAFNetworking/Pods-RestAPIAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB35CA1AE3004EDA2F416CAC /* libPods-RestAPIAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,8 @@
 				689AC2AD1FAC2F620085869F /* RestAPIAFNetworkingTests */,
 				689AC2B81FAC2F620085869F /* RestAPIAFNetworkingUITests */,
 				689AC2901FAC2F620085869F /* Products */,
+				FEB658A99108FB7E8EC60AFC /* Pods */,
+				78F8D04890DBAD3934241345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +142,23 @@
 			path = RestAPIAFNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		78F8D04890DBAD3934241345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A918FA67697CCEBD6521C3C8 /* libPods-RestAPIAFNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEB658A99108FB7E8EC60AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1225878A098E0903890A1A8E /* Pods-RestAPIAFNetworking.debug.xcconfig */,
+				C38C7728340E0887705AF950 /* Pods-RestAPIAFNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 689AC2BE1FAC2F620085869F /* Build configuration list for PBXNativeTarget "RestAPIAFNetworking" */;
 			buildPhases = (
+				36F6BBE92BB9D4286A9816EA /* [CP] Check Pods Manifest.lock */,
 				689AC28B1FAC2F620085869F /* Sources */,
 				689AC28C1FAC2F620085869F /* Frameworks */,
 				689AC28D1FAC2F620085869F /* Resources */,
+				66E395011CD203FD0D774A2F /* [CP] Embed Pods Frameworks */,
+				5F3D284D84C33504A29031B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +289,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F6BBE92BB9D4286A9816EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestAPIAFNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3D284D84C33504A29031B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIAFNetworking/Pods-RestAPIAFNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E395011CD203FD0D774A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIAFNetworking/Pods-RestAPIAFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		689AC28B1FAC2F620085869F /* Sources */ = {
@@ -432,6 +510,7 @@
 		};
 		689AC2BF1FAC2F620085869F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1225878A098E0903890A1A8E /* Pods-RestAPIAFNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +524,7 @@
 		};
 		689AC2C01FAC2F620085869F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38C7728340E0887705AF950 /* Pods-RestAPIAFNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
